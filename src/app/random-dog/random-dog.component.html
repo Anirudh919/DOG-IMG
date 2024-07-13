@@ -1,0 +1,8 @@
+<div *ngIf="dogImage" class="text-center">
+    <h2>Random Dog Image</h2>
+    <img [src]="dogImage" alt="Random Dog" class="img-fluid rounded shadow-lg my-3">
+    <div class="d-flex justify-content-center">
+      <button class="btn btn-primary mt-3" (click)="getRandomDog()">Fetch New Image</button>
+    </div>
+  </div>
+  
